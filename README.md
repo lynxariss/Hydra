@@ -1,8 +1,7 @@
 # Hydra
---- 
 
-the original idea is this 
+The idea is this 
 
 ```python
-# guardar en una base de datos (o un doc de texto json) el dato que de va a guardar es el de la lectura actual (la primer lectura se va a guardar), si el usuario es nuevo pedir la lectura anterior en base al lo anterior sacar el consumo del mes sacar el consumo total de todos los usuario y dividirlo por el consumo de energia del poso (para sacar el costo por metro cubico) a partir del consumo del mes del usuario multiplicarlo por el valor conseguido anteriormente
+# Save the current reading (the first reading) in a database (or a JSON text document). If the user is new, request the previous reading. Based on this, calculate the monthly consumption, then calculate the total consumption for all users and divide it by the well's energy consumption (to calculate the cost per cubic meter). Finally, multiply the user's monthly consumption by the previously calculated value.
 ```
